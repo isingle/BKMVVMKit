@@ -1,0 +1,31 @@
+{
+  "name": "BKMVVMKit",
+  "version": "0.3.2",
+  "summary": "A short description of BKMVVMKit.",
+  "description": "BKMVVMKit",
+  "homepage": "https://github.com/isingle/BKMMVMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "isingle": "isingle@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/isingle/LBKMMVMKit",
+    "tag": "BKMVVMKit-0.3.2"
+  },
+  "preserve_paths": [
+    "BKMVVMKit/Classes/**/*",
+    "BKMVVMKit/Assets/**/*",
+    "BKMVVMKit/Framework/**/*",
+    "BKMVVMKit/Archive/**/*",
+    "BKMVVMKit/Dependencies/**/*",
+    "BKMVVMKit/**/*.pch"
+  ],
+  "source_files": "BKMVVMKit/Classes/**/*.{h,m,mm,c,cpp,cc}",
+  "public_header_files": "BKMVVMKit/Classes/**/*.h"
+}

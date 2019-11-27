@@ -1,0 +1,1 @@
+../../../../../BKMVVMKit/Classes/Category/UICollectionViewCell+BKVMConfig.h

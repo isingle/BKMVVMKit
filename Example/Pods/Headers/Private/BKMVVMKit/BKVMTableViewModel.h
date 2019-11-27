@@ -1,0 +1,1 @@
+../../../../../BKMVVMKit/Classes/BKVMTableViewController/BKVMTableViewModel.h

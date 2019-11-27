@@ -1,0 +1,1 @@
+../../../../../BKMVVMKit/Classes/BKCommand/BKCommandEntry.h

@@ -1,0 +1,23 @@
+PODS:
+  - BKMVVMKit (0.3.2)
+  - MJRefresh (3.2.3)
+
+DEPENDENCIES:
+  - BKMVVMKit (from `../`)
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  BKMVVMKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKMVVMKit: 637c7ebf5957e942229dcb29a20ccd0e06eefba2
+  MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
+
+PODFILE CHECKSUM: ec52f2504aa5fb8c05f52a66d03ce4f3ff66493f
+
+COCOAPODS: 1.8.4

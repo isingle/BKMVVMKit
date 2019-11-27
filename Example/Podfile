@@ -1,0 +1,15 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BKMVVMKit_Example' do
+  pod 'BKMVVMKit', :path => '../'
+#  pod 'KVOController'
+  pod 'MJRefresh'
+  
+#  target 'BKMVVMKit_Tests' do
+#    inherit! :search_paths
+
+    #pod 'FBSnapshotTestCase'
+#  end
+end
