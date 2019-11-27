@@ -25,6 +25,10 @@ BKMVVMKit 框架的设计模式如下图：
 
 ![image-20191016163939602](/Users/lic/Desktop/LJ-DOCK/BKMVVM_Readme/image-20191016163939602.png)
 
+![Image text](https://github.com/isingle/BKMVVMKit/blob/master/introduction_images/1571383453039.jpg)
+
+
+
 可以看到在框架中有一个 BKCommand ， ViewModel 可以持有多个 BKCommand 对象，并可以向它发送指令，接下来我们先聊一聊 BKCommand。
 
 ## BKCommand
