@@ -2,6 +2,8 @@
 
 BKMVVMKit is a design pattern based on MVVM, with the purpose of data-driven UI for iOS GUI framework; It is able to solve the problems caused by too bloated ViewController, such as poor maintenance and testability, and it is compatible with existing MVC framework.
 
+详细介绍请查看:  [https://zhuanlan.zhihu.com/p/94370337](https://zhuanlan.zhihu.com/p/94370337)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -23,7 +25,7 @@ pod 'BKMVVMKit'
 
 BKMVVMKit 框架的设计模式如下图：
 
-![Image text](https://github.com/isingle/BKMVVMKit/blob/master/introduction_images/6163939602.png)
+![Image text](https://s1.ax1x.com/2020/03/12/8ZSvlt.png)
 
 可以看到在框架中有一个 BKCommand ， ViewModel 可以持有多个 BKCommand 对象，并可以向它发送指令，接下来我们先聊一聊 BKCommand。
 
@@ -31,7 +33,7 @@ BKMVVMKit 框架的设计模式如下图：
 
 ​	BKCommand 的作用是接收到命令并触发动作执行，然后返回命令执行状态和结果，一般是跟 UI 交互操作相关，也可以处理单纯的业务逻辑。
 
-![Image text](https://github.com/isingle/BKMVVMKit/blob/master/introduction_images/5633455t.png)
+![Image text](https://s1.ax1x.com/2020/03/12/8Z9QDf.png)
 
 BKCommandEntry 是对命令实体的扩展描述，比如命令执行需要的 URL、Parameter 等，该实体也可以不进行配置；
 
@@ -189,7 +191,7 @@ typedef void(^BKCommandCancelBlock)(void);
 
 以上就是 BKCommand 的用法，比较简单，可以看到我们所有的 KVO 操作都是对 BKCommand 进行的，这样也方便把状态通过 BKCommand 去转发，统一将不同格式的数据进行再次加工来满足业务的需求，调试起来也会比较容易。整体的流程如下图：
 
-![Image text](https://github.com/isingle/BKMVVMKit/blob/master/introduction_images/1571383453039.jpg)
+![Image text](https://s1.ax1x.com/2020/03/12/8Vzs5d.jpg)
 
 ## BKVMBaseViewModel
 
